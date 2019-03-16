@@ -1,0 +1,20 @@
+{
+  "name": "cli-typescript-class-organizer",
+  "version": "1.0.0",
+  "description": "This project should become a cli-version of amazing [TypeScript Class Organizer for VS Code](https://github.com/aljazsim/vs-code-typescript-class-organizer). So thanks to @aljazsim",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvscode/cli-typescript-class-organizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvscode/cli-typescript-class-organizer/issues"
+  },
+  "homepage": "https://github.com/vvscode/cli-typescript-class-organizer#readme"
+}
