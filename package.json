@@ -1,6 +1,6 @@
 {
   "name": "cli-typescript-class-organizer",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This project should become a cli-version of amazing [TypeScript Class Organizer for VS Code](https://github.com/aljazsim/vs-code-typescript-class-organizer). So thanks to @aljazsim",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/vvscode/cli-typescript-class-organizer/issues"
   },
-  "homepage": "https://github.com/vvscode/cli-typescript-class-organizer#readme"
+  "homepage": "https://github.com/vvscode/cli-typescript-class-organizer#readme",
+  "dependencies": {
+    "@types/node": "^11.11.3",
+    "gar": "^1.0.4",
+    "ts-node": "^8.0.3"
+  },
+  "bin": {
+    "tsco": "./index.sh"
+  }
 }
