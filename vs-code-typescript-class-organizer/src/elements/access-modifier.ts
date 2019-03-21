@@ -1,6 +1,5 @@
-export enum AccessModifier
-{
-	private,
-	protected,
-	public
+export enum AccessModifier {
+  private,
+  protected,
+  public
 }

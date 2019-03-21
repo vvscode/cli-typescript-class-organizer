@@ -1,6 +1,5 @@
-export enum WriteModifier
-{
-	writable,
-	readOnly,
-	const
+export enum WriteModifier {
+  writable,
+  readOnly,
+  const
 }
