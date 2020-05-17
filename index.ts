@@ -1,10 +1,10 @@
 const args = require('gar')(process.argv.slice(2));
-const package = require('./package.json');
+const pkg = require('./package.json');
 const fs = require('fs');
 const { organizeCode } = require('./vs-code-typescript-class-organizer/extension');
 
 if (args.h || args.help) {
-  console.log(`${package.name}#${package.version}
+  console.log(`${pkg.name}#${pkg.version}
     You can use next flags:
       [fileName]  Name of file to process. Required param.
       --useRegions   When true regions surounding member groups are added. True by default
