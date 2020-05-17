@@ -1,6 +1,6 @@
 {
   "name": "cli-typescript-class-organizer",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "This project should become a cli-version of amazing [TypeScript Class Organizer for VS Code](https://github.com/aljazsim/vs-code-typescript-class-organizer). So thanks to @aljazsim",
   "main": "index.js",
   "scripts": {
